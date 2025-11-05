@@ -132,4 +132,14 @@ header img {
   height: 32px;
   width: auto;
   display: block;
+}
+
+.bell {
+  display: flex;
+  justify-content: flex-end;
+  width: 24px;
+  height: 24px;
+}
+.bell svg {
+  fill: #ffffff;
 }/*# sourceMappingURL=style.css.map */

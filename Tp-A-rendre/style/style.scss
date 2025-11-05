@@ -137,3 +137,14 @@ header {
 }
 
 .id {}
+
+.bell {
+  display: flex;
+  justify-content: flex-end;
+  width: 24px;
+  height: 24px;
+
+  svg {
+    fill:$neutral0;
+  }
+}
