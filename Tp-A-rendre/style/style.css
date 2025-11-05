@@ -16,7 +16,8 @@ p,
 .xs-bold,
 .link,
 .link-bold,
-.xs-link {
+.xs-link,
+div {
   font-family: "Inter", sans-serif;
   letter-spacing: -0.02em;
   text-underline-position: from-font;
@@ -324,6 +325,10 @@ main .description-first-section p {
 .card-2 {
   margin-left: 20px;
 }
+.card-2 .subtitle-card,
+.card-2 .description-card {
+  padding-left: 0;
+}
 
 .card-media {
   background: #ffffff;
@@ -351,6 +356,7 @@ main .description-first-section p {
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
+  padding: 0 20px;
 }
 
 .description-card {
@@ -358,6 +364,7 @@ main .description-first-section p {
   color: #ffffff;
   font-size: 14px;
   line-height: 22px;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 1200px) {
