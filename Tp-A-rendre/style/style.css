@@ -132,6 +132,7 @@ footer .foot-nav {
   align-items: center;
   flex-direction: row;
   color: #ffffff;
+  padding: 5px 10px 30px;
 }
 footer .foot-nav .col-nav {
   display: flex;
@@ -141,7 +142,6 @@ footer .foot-nav .col-nav {
 }
 footer .foot-nav h5 {
   font-size: 12px;
-  font-weight: 600;
 }
 footer .foot-nav .logo-nav {
   width: 20px;
