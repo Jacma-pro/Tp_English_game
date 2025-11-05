@@ -239,10 +239,13 @@ main .description-first-section p {
 }
 /* --- Second Section --- */
 .second-section {
+  max-width: 360px;
   background: #ffffff;
   border-radius: 24px 24px 0 0;
   padding: 22px 16px 60px;
   width: 100%;
+  max-width: none;
+  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,10 +299,13 @@ main .description-first-section p {
 
 /* --- Third Section --- */
 .third-section {
+  max-width: none;
+  margin: 0 auto;
   background: #09aab1;
   border-radius: 24px 24px 0 0;
   width: 100%;
   padding: 20px 0 24px;
+  margin-top: -20px;
 }
 .third-section .logo-in-bg {
   position: absolute;
@@ -319,7 +325,7 @@ main .description-first-section p {
 
 .card {
   margin: 16px 0 20px;
-  z-index: 1;
+  max-width: 360px;
 }
 
 .card-1, .card-3 {
