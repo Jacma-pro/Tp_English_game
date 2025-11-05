@@ -184,7 +184,7 @@ header {
 
 main {
     background-color: $primary950;
-    padding: 16px 0 24px;
+    padding: 16px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,55 +315,77 @@ main {
     font-weight: 700;
 }
 
-.third-section{
+/* --- Third Section --- */
 
-  background:$primary600;
-  border-radius: 24px 24px 0 0;
-  width: 100%;
-  padding: 20px 16px 24px;
+.third-section {
+    max-width: 360px;
+    margin: 0 auto;
+    background: $primary600;
+    border-radius: 24px 24px 0 0;
+    width: 100%;
+    padding: 20px 0 24px;
 
-  .third-title{
-  margin: 0 auto 12px;
-  color: $neutral0;
-  text-align: center;
-  font-size: 24px;     
-  line-height: 1.2;
-}
-}
-
-
-.card{
-  margin: 16px 0 20px;
+    .third-title {
+        margin: 60px 50px;
+        color: $neutral0;
+        text-align: center;
+        font-size: 24px;
+        line-height: 1.2;
+    }
 }
 
-.card-media{
-  background: $neutral0;
-  border-radius: 12px;
-  padding: 12px;
+
+.card {
+    margin: 16px 0 20px;
+}
+.card-1, .card-3 {
+    margin-right: 20px;
+}
+.card-2 {
+    margin-left: 20px;
+}
+.card-media {
+    background: $neutral0;
+    border-radius: 12px;
+    padding: 12px;
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+}
+.left {
+    border-radius: 0 12px 12px 0;
+}
+.right {
+    border-radius: 12px 0 0 12px;
 }
 
-.subtitle-card{
-  margin: 10px 0 6px;
-  color: $neutral0;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 22px;
+
+.subtitle-card {
+    margin: 10px 0 6px;
+    color: $neutral0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
 }
 
-.description-card{
-  margin: 0;
-  color: $neutral0;
-  font-size: 14px;
-  line-height: 22px;
+.description-card {
+    margin: 0;
+    color: $neutral0;
+    font-size: 14px;
+    line-height: 22px;
 }
 
 
 @media screen and (min-width: $width-menu-xl) {
     .desktop {
-      display: block;
+        display: block;
     }
+
     .mobile {
-      display: none;
+        display: none;
     }
 }
 
@@ -384,6 +406,7 @@ footer {
         flex-direction: row;
         color: $neutral0;
         padding: 10px 10px 30px;
+
         @media screen and (min-width: $width-menu-xl) {
             display: none;
         }
@@ -410,16 +433,18 @@ footer {
             }
         }
     }
+
     .desktop-footer {
         display: none;
         color: $neutral0;
         text-decoration: none;
         padding: 20px 40px;
 
-        a{
+        a {
             color: $neutral0;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
