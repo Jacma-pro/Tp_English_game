@@ -137,8 +137,8 @@ header img {
 .bell {
   display: flex;
   justify-content: flex-end;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 .bell svg {
   fill: #ffffff;
