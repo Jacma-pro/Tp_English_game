@@ -145,6 +145,22 @@ header {
   height: 24px;
 
   svg {
-    fill:$neutral0;
+    fill: $neutral0;
   }
+}
+
+.id{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+/* avatar rond, image recadrée dans le cercle */
+.avatar{
+  width: 28px;           /* 26–32px selon ta maquette */
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;     /* coupe l'image dans le cercle */
+  object-position: center;  /* ajuste le cadrage si besoin */
 }

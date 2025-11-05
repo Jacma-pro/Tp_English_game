@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -142,4 +143,22 @@ header img {
 }
 .bell svg {
   fill: #ffffff;
+}
+
+.id {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* avatar rond, image recadrée dans le cercle */
+.avatar {
+  width: 28px; /* 26–32px selon ta maquette */
+  height: 28px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover; /* coupe l'image dans le cercle */
+  -o-object-position: center;
+     object-position: center; /* ajuste le cadrage si besoin */
 }/*# sourceMappingURL=style.css.map */
