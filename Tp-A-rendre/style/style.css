@@ -199,20 +199,6 @@ main .description-first-section p {
   color: #cffefb;
   font-size: 14px;
 }
-main .cta-first-section {
-  margin-top: 16px;
-}
-main .btn-pill {
-  padding: 10px 16px;
-  border-radius: 9999px;
-  background: #68f8f3;
-  color: #083c44;
-  font-weight: 600;
-}
-main .second-section {
-  background-color: #ffffff;
-  color: #1a1a1a;
-}
 
 /* --- Footer --- */
 footer {
