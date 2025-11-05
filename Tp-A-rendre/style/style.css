@@ -170,9 +170,44 @@ header .caret {
 /* --- Main --- */
 main {
   background-color: #083c44;
+  padding: 16px 0 24px;
 }
 main .first-section {
-  color: #ffffff;
+  max-width: 360px;
+  margin: 0 auto;
+  background: #083c44;
+  border-radius: 16px;
+  padding: 16px;
+}
+main .title-first-section h1 {
+  margin: 0 0 12px;
+  color: #cffefb;
+  font-weight: 800;
+}
+main .image-first-section {
+  margin: 8px 0 12px;
+}
+main .image-first-section img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 4px solid #ffffff;
+  border-radius: 12px;
+}
+main .description-first-section p {
+  margin: 0;
+  color: #cffefb;
+  font-size: 14px;
+}
+main .cta-first-section {
+  margin-top: 16px;
+}
+main .btn-pill {
+  padding: 10px 16px;
+  border-radius: 9999px;
+  background: #68f8f3;
+  color: #083c44;
+  font-weight: 600;
 }
 
 /* --- Footer --- */
