@@ -168,9 +168,16 @@ header .caret {
 }
 
 /* --- Main --- */
+.desktop {
+  display: none;
+}
+
 main {
   background-color: #083c44;
   padding: 16px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .first-section {
   max-width: 360px;
@@ -178,6 +185,22 @@ main .first-section {
   background: #083c44;
   border-radius: 16px;
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  main .first-section {
+    flex-direction: row;
+    max-width: none;
+    margin: 0;
+    width: 80%;
+  }
+}
+main .first-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 main .title-first-section h1 {
   margin: 0 0 12px;
@@ -200,6 +223,14 @@ main .description-first-section p {
   font-size: 14px;
 }
 
+@media screen and (min-width: 1200px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
 /* --- Footer --- */
 footer {
   background-color: #0f878f;
