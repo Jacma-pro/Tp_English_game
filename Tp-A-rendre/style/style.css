@@ -279,7 +279,7 @@ main .description-first-section p {
 
 .description-second-section p {
   margin: 0;
-  color: rgb(61.9090909091, 192.5867768595, 212.0909090909);
+  color: #3ec1d4;
   font-size: var(--fs-body);
   line-height: var(--lh-body);
 }
@@ -352,7 +352,6 @@ main .description-first-section p {
 
 .card {
   margin: 16px 0 20px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
