@@ -1,1 +1,115 @@
-/*# sourceMappingURL=style.css.map */
+h1,
+h2,
+h3,
+h4,
+p,
+.s,
+.s-bold,
+.xs,
+.xs-bold,
+.link,
+.link-bold,
+.xs-link {
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.02em;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 57.6px;
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 64px;
+    line-height: 76.8px;
+  }
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38.4px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 28.8px;
+}
+@media screen and (min-width: 1200px) {
+  .bolder {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+}
+
+.s {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.s-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+}
+
+.xs {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.xs-bold {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.link-bold {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22.4px;
+  text-decoration: underline;
+}
+
+.xs-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
