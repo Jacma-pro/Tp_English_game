@@ -179,7 +179,7 @@ main .first-section {
 footer {
   background-color: #0f878f;
   width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 footer .foot-nav {
