@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -112,4 +118,18 @@ p {
   font-size: 14px;
   line-height: 16.8px;
   text-decoration: underline;
+}
+
+header {
+  background-color: #09aab1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 12px;
+}
+header img {
+  height: 32px;
+  width: auto;
+  display: block;
 }/*# sourceMappingURL=style.css.map */

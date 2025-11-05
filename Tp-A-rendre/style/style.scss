@@ -1,6 +1,12 @@
 @use "colors" as *;
 @use "sizes" as *;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -113,3 +119,21 @@ p {
   line-height: 16.8px;
   text-decoration: underline;
 }
+
+
+header {
+  background-color: $primary600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  padding: 0 12px;
+
+  img {
+    height: 32px;
+    width: auto;
+    display: block;
+  }
+}
+
+.id {}
