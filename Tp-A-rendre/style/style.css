@@ -171,6 +171,7 @@ header .caret {
 main {
   background-color: #083c44;
   padding: 16px 0 24px;
+  /* --- Footer --- */
 }
 main .first-section {
   max-width: 360px;
@@ -235,14 +236,12 @@ main .btn-quiz {
   color: #0f2d2f;
   font-weight: 700;
 }
-
-/* --- Footer --- */
-footer {
+main footer {
   background-color: #0f878f;
   width: 100%;
   bottom: 0;
 }
-footer .foot-nav {
+main footer .foot-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,7 +249,7 @@ footer .foot-nav {
   color: #ffffff;
   padding: 10px 10px 30px;
 }
-footer .foot-nav .col-nav {
+main footer .foot-nav .col-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -258,13 +257,13 @@ footer .foot-nav .col-nav {
   text-decoration: none;
   color: #ffffff;
 }
-footer .foot-nav h5 {
+main footer .foot-nav h5 {
   font-size: 12px;
 }
-footer .foot-nav .logo-nav {
+main footer .foot-nav .logo-nav {
   width: 20px;
   height: auto;
 }
-footer .foot-nav .logo-nav svg {
+main footer .foot-nav .logo-nav svg {
   fill: #ffffff;
 }/*# sourceMappingURL=style.css.map */
