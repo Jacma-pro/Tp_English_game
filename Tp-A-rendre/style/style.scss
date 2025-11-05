@@ -126,6 +126,8 @@ p {
 footer {
     background-color: $primary900;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 
     .foot-nav {
         display: flex;
