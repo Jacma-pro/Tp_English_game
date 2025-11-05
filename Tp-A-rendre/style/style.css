@@ -8,6 +8,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 .s,
 .s-bold,
@@ -131,6 +132,10 @@ footer .foot-nav {
   align-items: center;
   flex-direction: row;
   color: #ffffff;
+}
+footer .foot-nav h5 {
+  font-size: 16px;
+  font-weight: 600;
 }
 footer .foot-nav .logo-nav {
   width: 20px;
