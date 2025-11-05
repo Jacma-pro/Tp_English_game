@@ -129,11 +129,17 @@ footer {
 
     .foot-nav {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: row;
         color: $neutral0;
 
+        .col-nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         h5 {
             font-size: 16px;
             font-weight: 600;
