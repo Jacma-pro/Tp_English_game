@@ -123,60 +123,61 @@ p {
 
 
 header {
-  background-color: $primary600;
+  background-color: $primary700;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 56px;
   padding: 0 12px;
+  border-bottom: 5px solid $primary400;
 
   img {
     height: 32px;
     width: auto;
     display: block;
   }
+  .bell {
+    display: flex;
+    justify-content: flex-end;
+    width: 24px;
+    height: 24px;
+  
+    svg {
+      fill: $neutral0;
+    }
+  }
+  
+  .id{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  
+  .avatar{
+    width: 28px;         
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;   
+    object-position: center;  
+  }
+  
+  
+  .caret{
+    width: 14px;   
+    height: 14px;
+    fill: $neutral0; 
+    display: block;
+  }
 }
 
 .id {}
 
-.bell {
-  display: flex;
-  justify-content: flex-end;
-  width: 24px;
-  height: 24px;
-
-  svg {
-    fill: $neutral0;
-  }
-}
-
-.id{
-  margin-left:auto;
-  display:flex;
-  align-items:center;
-  gap:12px;
-}
-
-.avatar{
-  width: 28px;         
-  height: 28px;
-  border-radius: 50%;
-  object-fit: cover;   
-  object-position: center;  
-}
-
-
-.caret{
-  width: 14px;   
-  height: 14px;
-  fill: $neutral0; 
-  display: block;
-}
 
 /* --- Footer --- */
 
 footer {
-    background-color: $primary900;
+    background-color: $primary700;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -187,7 +188,7 @@ footer {
         align-items: center;
         flex-direction: row;
         color: $neutral0;
-        padding: 5px 10px 30px;
+        padding: 10px 10px 30px;
 
         .col-nav {
             display: flex;

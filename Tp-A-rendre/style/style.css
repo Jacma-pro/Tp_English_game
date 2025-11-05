@@ -122,37 +122,35 @@ p {
 }
 
 header {
-  background-color: #09aab1;
+  background-color: #0f878f;
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 56px;
   padding: 0 12px;
+  border-bottom: 5px solid #23edea;
 }
 header img {
   height: 32px;
   width: auto;
   display: block;
 }
-
-.bell {
+header .bell {
   display: flex;
   justify-content: flex-end;
   width: 24px;
   height: 24px;
 }
-.bell svg {
+header .bell svg {
   fill: #ffffff;
 }
-
-.id {
+header .id {
   margin-left: auto;
   display: flex;
   align-items: center;
   gap: 12px;
 }
-
-.avatar {
+header .avatar {
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -161,8 +159,7 @@ header img {
   -o-object-position: center;
      object-position: center;
 }
-
-.caret {
+header .caret {
   width: 14px;
   height: 14px;
   fill: #ffffff;
@@ -171,7 +168,7 @@ header img {
 
 /* --- Footer --- */
 footer {
-  background-color: #165963;
+  background-color: #0f878f;
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -182,7 +179,7 @@ footer .foot-nav {
   align-items: center;
   flex-direction: row;
   color: #ffffff;
-  padding: 5px 10px 30px;
+  padding: 10px 10px 30px;
 }
 footer .foot-nav .col-nav {
   display: flex;
