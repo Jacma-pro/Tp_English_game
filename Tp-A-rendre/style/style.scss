@@ -142,8 +142,8 @@ header {
 .bell {
   display: flex;
   justify-content: flex-end;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 
   svg {
     fill: $neutral0;
@@ -167,7 +167,7 @@ header {
 
 
 .caret{
-  width: 14px;    
+  width: 14px;   
   height: 14px;
   fill: $neutral0; 
   display: block;
