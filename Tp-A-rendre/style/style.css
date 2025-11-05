@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -112,4 +118,17 @@ p {
   font-size: 14px;
   line-height: 16.8px;
   text-decoration: underline;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #165963;
+  width: 100%;
+}
+footer .foot-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
