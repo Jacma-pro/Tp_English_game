@@ -228,23 +228,13 @@ main .description-first-section p {
   color: #cffefb;
   font-size: 14px;
 }
-
-@media screen and (min-width: 1200px) {
-  .desktop {
-    display: block;
-  }
-  .mobile {
-    display: none;
-  }
-}
-.second-section {
+main .second-section {
   background: #ffffff;
   border-radius: 24px 24px 12px 12px;
   padding: 22px 16px 20px;
   width: 100%;
 }
-
-.title-second-section h2 {
+main .title-second-section h2 {
   margin: 0 auto 12px;
   color: #166f78;
   text-align: center;
@@ -253,19 +243,16 @@ main .description-first-section p {
   font-size: clamp(22px, 6vw, 26px);
   max-width: 18ch;
 }
-
-.description-second-section {
+main .description-second-section {
   text-align: center;
 }
-
-.description-second-section p {
+main .description-second-section p {
   margin: 0;
   color: #3ec1d4;
   font-size: var(--fs-body);
   line-height: var(--lh-body);
 }
-
-.btn-quiz {
+main .btn-quiz {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -277,7 +264,49 @@ main .description-first-section p {
   color: #0f2d2f;
   font-weight: 700;
 }
+main .third-section {
+  background: #09aab1;
+  border-radius: 24px 24px 0 0;
+  width: 100%;
+  padding: 20px 16px 24px;
+}
+main .third-section .third-title {
+  margin: 0 auto 12px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2;
+}
+main .card {
+  margin: 16px 0 20px;
+}
+main .card-media {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+}
+main .subtitle-card {
+  margin: 10px 0 6px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+main .description-card {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 22px;
+}
 
+@media screen and (min-width: 1200px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+}
 /* --- Footer --- */
 footer {
   background-color: #0f878f;
