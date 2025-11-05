@@ -310,6 +310,11 @@ footer .foot-nav {
   color: #ffffff;
   padding: 10px 10px 30px;
 }
+@media screen and (min-width: 1200px) {
+  footer .foot-nav {
+    display: none;
+  }
+}
 footer .foot-nav .col-nav {
   display: flex;
   flex-direction: column;
@@ -327,4 +332,25 @@ footer .foot-nav .logo-nav {
 }
 footer .foot-nav .logo-nav svg {
   fill: #ffffff;
+}
+footer .desktop-footer {
+  display: none;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+footer .desktop-footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer .desktop-footer a:hover {
+  text-decoration: underline;
+}
+@media screen and (min-width: 1200px) {
+  footer .desktop-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */

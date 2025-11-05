@@ -330,6 +330,9 @@ footer {
         flex-direction: row;
         color: $neutral0;
         padding: 10px 10px 30px;
+        @media screen and (min-width: $width-menu-xl) {
+            display: none;
+        }
 
         .col-nav {
             display: flex;
@@ -351,6 +354,28 @@ footer {
             svg {
                 fill: $neutral0;
             }
+        }
+    }
+    .desktop-footer {
+        display: none;
+        color: $neutral0;
+        text-decoration: none;
+        padding: 20px 40px;
+
+        a{
+            color: $neutral0;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media screen and (min-width: $width-menu-xl) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
         }
     }
 }
