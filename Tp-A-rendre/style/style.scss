@@ -141,8 +141,8 @@ header {
 .bell {
   display: flex;
   justify-content: flex-end;
-  width: 24px;
-  height: 24px;
+  width: 16px;
+  height: 16px;
 
   svg {
     fill: $neutral0;
@@ -156,11 +156,20 @@ header {
   gap:12px;
 }
 
-/* avatar rond, image recadrée dans le cercle */
 .avatar{
-  width: 28px;           /* 26–32px selon ta maquette */
+  width: 28px;         
   height: 28px;
   border-radius: 50%;
-  object-fit: cover;     /* coupe l'image dans le cercle */
-  object-position: center;  /* ajuste le cadrage si besoin */
+  object-fit: cover;   
+  object-position: center;  
 }
+
+
+.caret{
+  width: 14px;    
+  height: 14px;
+  fill: $neutral0; 
+  display: block;
+}
+
+
