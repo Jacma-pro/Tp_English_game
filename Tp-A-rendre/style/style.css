@@ -8,6 +8,7 @@ h1,
 h2,
 h3,
 h4,
+h5,
 p,
 .s,
 .s-bold,
@@ -166,4 +167,38 @@ header img {
   height: 14px;
   fill: #ffffff;
   display: block;
+}
+
+/* --- Footer --- */
+footer {
+  background-color: #165963;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+footer .foot-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  color: #ffffff;
+  padding: 5px 10px 30px;
+}
+footer .foot-nav .col-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .foot-nav h5 {
+  font-size: 12px;
+}
+footer .foot-nav .logo-nav {
+  width: 20px;
+  height: auto;
+}
+footer .foot-nav .logo-nav svg {
+  fill: #ffffff;
 }/*# sourceMappingURL=style.css.map */
