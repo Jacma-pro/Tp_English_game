@@ -199,6 +199,42 @@ main .description-first-section p {
   color: #cffefb;
   font-size: 14px;
 }
+main .second-section {
+  background: #ffffff;
+  border-radius: 24px 24px 12px 12px;
+  padding: 22px 16px 20px;
+  width: 100%;
+}
+main .title-second-section h2 {
+  margin: 0 auto 12px;
+  color: #166f78;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.15;
+  font-size: clamp(22px, 6vw, 26px);
+  max-width: 18ch;
+}
+main .description-second-section {
+  text-align: center;
+}
+main .description-second-section p {
+  margin: 0;
+  color: #3ec1d4;
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+}
+main .btn-quiz {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 9999px;
+  background: #F6B84B;
+  color: #0f2d2f;
+  font-weight: 700;
+}
 
 /* --- Footer --- */
 footer {
