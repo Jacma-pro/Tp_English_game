@@ -140,10 +140,13 @@ footer {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            text-decoration: none;
+            color: $neutral0;
         }
         h5 {
-            font-size: 12px;        }
-        .logo-nav{
+            font-size: 12px;        
+        }
+        .logo-nav {
             width: 20px;
             height: auto;
 
