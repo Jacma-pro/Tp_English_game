@@ -164,7 +164,7 @@ p {
 
 - Couleurs principales : Utilisez un color picker de votre choix !
 
-```css
+```scss
 $primary100: #cffefb;
 $primary200: #a5fcf8;
 $primary300: #68f8f3;
