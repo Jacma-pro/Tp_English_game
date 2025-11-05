@@ -131,4 +131,11 @@ footer .foot-nav {
   align-items: center;
   flex-direction: row;
   color: #ffffff;
+}
+footer .foot-nav .logo-nav {
+  width: 20px;
+  height: auto;
+}
+footer .foot-nav .logo-nav svg {
+  fill: #ffffff;
 }/*# sourceMappingURL=style.css.map */
