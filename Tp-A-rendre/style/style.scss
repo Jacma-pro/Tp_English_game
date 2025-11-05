@@ -121,6 +121,7 @@ p {
   text-decoration: underline;
 }
 
+/* --- Header --- */
 
 header {
   background-color: $primary700;
@@ -174,6 +175,16 @@ header {
 .id {}
 
 
+/* --- Main --- */
+
+main {
+    background-color: $primary950;
+
+    .first-section {
+        color: $neutral0;
+    }
+}
+
 /* --- Footer --- */
 
 footer {
@@ -211,3 +222,4 @@ footer {
         }
     }
 }
+

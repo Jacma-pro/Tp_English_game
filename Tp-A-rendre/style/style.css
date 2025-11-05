@@ -121,6 +121,7 @@ p {
   text-decoration: underline;
 }
 
+/* --- Header --- */
 header {
   background-color: #0f878f;
   display: flex;
@@ -164,6 +165,14 @@ header .caret {
   height: 14px;
   fill: #ffffff;
   display: block;
+}
+
+/* --- Main --- */
+main {
+  background-color: #083c44;
+}
+main .first-section {
+  color: #ffffff;
 }
 
 /* --- Footer --- */
