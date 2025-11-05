@@ -195,12 +195,18 @@ main .first-section {
     max-width: none;
     margin: 0;
     width: 80%;
+    gap: 24px;
   }
 }
 main .first-section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  main .first-section-content {
+    width: 60%;
+  }
 }
 main .title-first-section h1 {
   margin: 0 0 12px;

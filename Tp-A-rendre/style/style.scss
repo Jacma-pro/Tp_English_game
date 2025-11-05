@@ -203,6 +203,7 @@ main {
       max-width: none;
       margin: 0;
       width: 80%;
+      gap: 24px;
     }
   }
 
@@ -210,6 +211,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media screen and (min-width: $width-menu-xl) {
+      width: 60%;
+    }
   }
 
   .title-first-section h1 {
