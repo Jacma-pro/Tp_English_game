@@ -209,12 +209,15 @@ main .btn-pill {
   color: #083c44;
   font-weight: 600;
 }
+main .second-section {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
 
 /* --- Footer --- */
 footer {
   background-color: #0f878f;
   width: 100%;
-  position: absolute;
   bottom: 0;
 }
 footer .foot-nav {
