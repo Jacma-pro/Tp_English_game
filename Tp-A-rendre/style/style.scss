@@ -178,9 +178,15 @@ header {
 
 /* --- Main --- */
 
+.desktop {
+  display: none;
+}
 main {
   background-color: $primary950;
   padding: 16px 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .first-section {
     max-width: 360px;
@@ -188,6 +194,27 @@ main {
     background: $primary950;
     border-radius: 16px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $width-menu-xl) {
+      flex-direction: row;
+      max-width: none;
+      margin: 0;
+      width: 80%;
+      gap: 24px;
+    }
+  }
+
+  .first-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $width-menu-xl) {
+      width: 60%;
+    }
   }
 
   .title-first-section h1 {
@@ -211,8 +238,17 @@ main {
     color: $primary100;
     font-size: 14px;
   }
+  
+}
 
-
+@media screen and (min-width: $width-menu-xl) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+}
 
 .second-section{
   background: $neutral0;
@@ -295,4 +331,3 @@ footer {
     }
   }
  }
-}
